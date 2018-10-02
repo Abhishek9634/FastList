@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1299B32163C45800CD13DB /* Grocery.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F1299B22163C45800CD13DB /* Grocery.json */; };
+		9F1299B52163C57B00CD13DB /* CategoryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1299B42163C57B00CD13DB /* CategoryItemsViewController.swift */; };
 		9F4DC183216349830012C19C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DC182216349830012C19C /* CoreDataStack.swift */; };
 		9F4DC18821634C620012C19C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4DC18721634C620012C19C /* Home.storyboard */; };
 		9F4DC18B21634C9B0012C19C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DC18A21634C9B0012C19C /* HomeViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1299B22163C45800CD13DB /* Grocery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Grocery.json; sourceTree = "<group>"; };
+		9F1299B42163C57B00CD13DB /* CategoryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemsViewController.swift; sourceTree = "<group>"; };
 		9F4DC182216349830012C19C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		9F4DC18721634C620012C19C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		9F4DC18A21634C9B0012C19C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		9F1299B12163BBFA00CD13DB /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				9F1299B22163C45800CD13DB /* Grocery.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9F4DC18A21634C9B0012C19C /* HomeViewController.swift */,
+				9F1299B42163C57B00CD13DB /* CategoryItemsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 				9FE2B4BC21634624008531E6 /* LaunchScreen.storyboard in Resources */,
 				9FE2B4B921634624008531E6 /* Assets.xcassets in Resources */,
 				9FE2B4B421634623008531E6 /* Login.storyboard in Resources */,
+				9F1299B32163C45800CD13DB /* Grocery.json in Resources */,
 				9F4DC19021634E5B0012C19C /* HomeTableViewCell.xib in Resources */,
 				9F4DC18821634C620012C19C /* Home.storyboard in Resources */,
 			);
@@ -272,6 +279,7 @@
 				9F4DC18F21634E5B0012C19C /* HomeTableViewCell.swift in Sources */,
 				9F4DC1A02163576F0012C19C /* HomeModels.swift in Sources */,
 				9F4DC18B21634C9B0012C19C /* HomeViewController.swift in Sources */,
+				9F1299B52163C57B00CD13DB /* CategoryItemsViewController.swift in Sources */,
 				9F4DC19C21634F070012C19C /* TableViewCell.swift in Sources */,
 				9FE2B4B121634623008531E6 /* LoginViewController.swift in Sources */,
 				9F4DC19A21634F070012C19C /* CollectionViewCell.swift in Sources */,

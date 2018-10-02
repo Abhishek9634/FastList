@@ -36,11 +36,41 @@
                     <navigationItem key="navigationItem" id="7kJ-2j-Rjg"/>
                     <connections>
                         <outlet property="tableView" destination="13p-zP-yhr" id="2Zh-rz-79Q"/>
+                        <segue destination="xri-uj-yP9" kind="show" identifier="CategoryItemsViewSegueId" id="IB7-bX-V4I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1eZ-1h-eea" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="834.39999999999998" y="-53.523238380809602"/>
+        </scene>
+        <!--Items-->
+        <scene sceneID="a1P-k1-Atb">
+            <objects>
+                <viewController storyboardIdentifier="CategoryItemsViewController" id="xri-uj-yP9" customClass="CategoryItemsViewController" customModule="FastList" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Lo-S5-s55">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3Vp-mX-yjq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <viewLayoutGuide key="safeArea" id="iGc-CR-Upy"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3Vp-mX-yjq" firstAttribute="leading" secondItem="tbP-Rg-FeF" secondAttribute="leading" id="4Qi-TI-skh"/>
+                            <constraint firstItem="3Vp-mX-yjq" firstAttribute="trailing" secondItem="tbP-Rg-FeF" secondAttribute="trailing" id="9hL-Nc-e03"/>
+                            <constraint firstItem="3Vp-mX-yjq" firstAttribute="top" secondItem="4Lo-S5-s55" secondAttribute="top" id="Ffq-3A-kfm"/>
+                            <constraint firstItem="3Vp-mX-yjq" firstAttribute="bottom" secondItem="tbP-Rg-FeF" secondAttribute="bottom" id="MWj-YL-KcL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tbP-Rg-FeF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Items" id="Jee-WP-rJT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="42C-2Z-Rbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="-54.422788605697157"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nhh-vu-dAZ">

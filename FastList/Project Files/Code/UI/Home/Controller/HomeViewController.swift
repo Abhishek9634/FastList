@@ -13,6 +13,9 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     private var cellItems: [HomeCellModel] = []
+    private struct Segue {
+        static let CategoryItems = "CategoryItemsViewSegueId"
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,17 +61,21 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView,
                    didSelectRowAt indexPath: IndexPath) {
         let model = self.cellItems[indexPath.row]
-        switch model.type {
-        case .simple:
-            break
-        case .household:
-            break
-        case .grocery:
-            break
-        case .plumbing:
-            break
-        case .wedding:
-            break
+        self.performSegue(withIdentifier: Segue.CategoryItems, sender: model)
+    }
+}
+
+extension HomeViewController {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch (segue.identifier, segue.destination, sender) {
+        case (Segue.CategoryItems,
+              let vc as CategoryItemsViewController,
+              let model as HomeCellModel):
+            vc.model = model
+        default:
+            return
         }
+        super.prepare(for: segue, sender: sender)
     }
 }
