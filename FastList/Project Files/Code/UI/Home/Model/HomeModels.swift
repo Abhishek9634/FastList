@@ -38,7 +38,7 @@ enum HomeItem: Int {
         case .household:
             return "HouseHold"
         case .grocery:
-            return "HouseHold"
+            return "Grocery"
         case .plumbing:
             return "Plumbing"
         case .wedding:
