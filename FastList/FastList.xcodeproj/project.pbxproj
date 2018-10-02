@@ -43,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				9F4DC18521634BAC0012C19C /* Login */,
-				9FE2B4B021634623008531E6 /* LoginViewController.swift */,
-				9FE2B4B221634623008531E6 /* Login.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -81,6 +79,8 @@
 		9F4DC18521634BAC0012C19C /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				9FE2B4B021634623008531E6 /* LoginViewController.swift */,
+				9FE2B4B221634623008531E6 /* Login.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
