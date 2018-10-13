@@ -1,0 +1,84 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AnyErrorKit (0.1.4)
+  - BSKeyboardControls (2.2)
+  - FLLogs (0.1.1):
+    - XCGLogger (~> 6.0.4)
+  - FormValidation (1.0.1)
+  - FoxAPIKit (0.1.4):
+    - Alamofire (~> 4.4)
+    - AnyErrorKit (~> 0.1.1)
+    - JSONParsing (~> 0.1.3)
+    - SwiftyJSON (~> 3.1)
+  - JSONParsing (0.1.3):
+    - AnyErrorKit (~> 0.1.1)
+    - SwiftyJSON (~> 3.1)
+  - Kingfisher (4.8.1)
+  - MBProgressHUD (1.1.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - SwiftyJSON (3.1.4)
+  - XCGLogger (6.0.4):
+    - XCGLogger/Core (= 6.0.4)
+  - XCGLogger/Core (6.0.4):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - BSKeyboardControls (~> 2.2)
+  - FLLogs (from `https://github.com/Nickelfox/FLLogs.git`)
+  - FormValidation (from `https://github.com/Nickelfox/FormValidation.git`, branch `develop`)
+  - FoxAPIKit (from `https://github.com/Nickelfox/FoxAPIKit.git`, branch `bug-fixes`)
+  - Kingfisher (~> 4.0)
+  - MBProgressHUD (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AnyErrorKit
+    - BSKeyboardControls
+    - JSONParsing
+    - Kingfisher
+    - MBProgressHUD
+    - ObjcExceptionBridging
+    - SwiftyJSON
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  FLLogs:
+    :git: https://github.com/Nickelfox/FLLogs.git
+  FormValidation:
+    :branch: develop
+    :git: https://github.com/Nickelfox/FormValidation.git
+  FoxAPIKit:
+    :branch: bug-fixes
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+
+CHECKOUT OPTIONS:
+  FLLogs:
+    :commit: 2c477257cb9dfba7faf5d1e203543c69f41513d0
+    :git: https://github.com/Nickelfox/FLLogs.git
+  FormValidation:
+    :commit: a3b1158c2e7a58cd3aa15a873056381d7bb4f5ef
+    :git: https://github.com/Nickelfox/FormValidation.git
+  FoxAPIKit:
+    :commit: 1e03dee1a42485fe3c79ce5adb74ba052c8621bc
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AnyErrorKit: 6083091402347e82158c4e6e565680bdd4d1928c
+  BSKeyboardControls: b701935e789961102e3f20063bba7185800a2d3f
+  FLLogs: 7ea1c1f8cb8c1814ad6fe7592131f91037a82e03
+  FormValidation: a0e3b4a2fcfcd08b72b75fc7ce643371fcb4beb7
+  FoxAPIKit: 0f4947581960fd01d2f0dada7e2e2e9bfc744dfe
+  JSONParsing: 499e8b6454d4c59efa6f10c98523fefcf72e119c
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XCGLogger: 4fc1bc0bdd5828cb8dc8da7a843536cda1bea8f3
+
+PODFILE CHECKSUM: e443ce765a4c106e3ef108ca3c3638f74eccce17
+
+COCOAPODS: 1.5.3
